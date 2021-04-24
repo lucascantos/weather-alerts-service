@@ -1,0 +1,27 @@
+{
+  "name": "weather-alerts-service",
+  "version": "1.0.0",
+  "description": "Create weather alerts based on radar imagery and lightning strikes",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucascantos/weather-alerts-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucascantos/weather-alerts-service/issues"
+  },
+  "homepage": "https://github.com/lucascantos/weather-alerts-service#readme",
+  "dependencies": {
+    "serverless-dotenv-plugin": "^3.9.0",
+    "serverless-offline": "^6.9.0",
+    "serverless-python-requirements": "^5.1.1"
+  }
+}
