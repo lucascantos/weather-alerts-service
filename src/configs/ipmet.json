@@ -1,0 +1,65 @@
+{
+    "radar": [
+      {
+        "name": "Bauru",
+        "code": "bu",
+        "city": "BAURU",
+        "latlon": [-23.599125, -47.098079]
+      },
+      {
+        "name": "Pres. Prudente",
+        "code": "dn",
+        "city": "PRESIDENTE PRUDENTE",
+        "latlon": [-28.128709, -49.472352]
+      }
+    ],
+    "properties": {
+      "name": "ipmet",
+      "scan": "",
+      "radius" : "450000",
+      "levels" : [
+        {
+          "intensity": "Todas",
+          "range_mmh": [0, 200],
+          "range_dbz": [0, 75],
+          "range_rgb": [[0, 0, 1], [255, 255, 255]],
+          "range_hsv": [[0, 1, 1], [255, 255, 255]]
+        }, 
+        {
+          "intensity": "M.Fraco",
+          "range_mmh": [0,1],
+          "range_dbz": [0,20],
+          "range_rgb": [[0, 0, 246], [117, 255, 255]],
+          "range_hsv": [[90, 0, 1], [120, 255, 255]]
+        },
+        {
+          "intensity": "Fraco",
+          "range_mmh": [1, 6],
+          "range_dbz": [20, 30],
+          "range_rgb": [[0, 153, 0], [0, 255, 0]],
+          "range_hsv": [[38, 0, 1], [89, 255, 255]]
+        },
+        {
+          "intensity": "Moderado",
+          "range_mmh": [6, 25],
+          "range_dbz": [30, 45],
+          "range_rgb": [[255, 153, 0],[255, 255, 0]],
+          "range_hsv": [[20, 0, 1], [37, 255, 255]]
+        },
+        {
+          "intensity": "Forte",
+          "range_mmh": [25, 100],
+          "range_dbz": [45, 63],
+          "range_rgb": [[100, 0, 1], [255, 0, 0]],
+          "range_hsv": [[0, 1, 1], [19, 255, 255]]
+        },
+        {
+          "intensity": "M.Forte",
+          "range_mmh": [100, 200],
+          "range_dbz": [63, 75],
+          "range_rgb": [[255, 0, 255], [151, 88, 201]],
+          "range_hsv": [[200, 0, 1], [240, 255, 255]]
+        }
+      ]
+    }
+  }
